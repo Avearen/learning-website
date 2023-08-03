@@ -4,6 +4,7 @@ import App from './App.vue'
 import router from './router'
 
 // * ADDITIONAL IMPORTS
+import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 
 
