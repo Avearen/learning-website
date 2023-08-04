@@ -1,5 +1,10 @@
 import { createApp } from 'vue'
-import './style.css'
+import PrimeVue from 'primevue/config'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import "primevue/resources/themes/lara-light-indigo/theme.css";
+import 'primeicons/primeicons.css';
+
+const app = createApp(App)
+app.use(PrimeVue)
+app.mount('#app')
